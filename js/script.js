@@ -10,7 +10,7 @@
     },
   ];
 
-  const addNewTask = (newTaskContent) => {
+    const addNewTask = (newTaskContent) => {
     tasks.push({
       content: newTaskContent,
     });
@@ -75,6 +75,7 @@
     }
 
     addNewTask(newTaskContent);
+    form.reset();
   }
 
   const init = () => {
