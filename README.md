@@ -10,3 +10,5 @@ This is a simple task list management application that allows you to add, remove
 4. JavaScript, 
 5. BEM convention, 
 6. Git
+
+## DEMO: https://konikqn.github.io/todolist/
