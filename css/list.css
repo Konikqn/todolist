@@ -1,0 +1,16 @@
+.tasks__list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.list__item {
+    border-bottom: 2px solid #eee;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    align-items: center;   
+}
+
+.list__item--done {
+    text-decoration: line-through;
+}
