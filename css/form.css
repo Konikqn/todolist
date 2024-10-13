@@ -1,12 +1,13 @@
 .form {
     display: grid;
     grid-template-columns: 1fr auto;
-    grid-gap: 30px;
-    word-wrap: break-word;
+    grid-gap: 20px;
+    
 }
 
 .form__input {
     padding: 10px;
+    border: 1px solid black;
 }
 
 .form__button {
@@ -19,3 +20,7 @@
     background-color: #00808080;
 }
 
+
+@media (max-width: 767px) {
+    .form {
+        grid-template-columns: 1fr;}}
